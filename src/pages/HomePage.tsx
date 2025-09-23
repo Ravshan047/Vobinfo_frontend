@@ -37,7 +37,7 @@ const HomePage = () => {
       <section
         className="pt-28 pb-16 md:pt-36 md:pb-24 bg-gradient-to-r from-blue-900 to-blue-700 text-white relative overflow-hidden"
         style={{
-          backgroundImage: `url(/public/minor.jpg)`,
+          backgroundImage: `url(minor.jpg)`,
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}

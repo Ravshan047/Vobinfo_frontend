@@ -32,7 +32,7 @@ export const loginUser = async (credentials) => {
   }
 };
 
-// // 📰 Barchaga ochiq yangiliklar API
+// //  Barchaga ochiq yangiliklar API
 // export const fetchNews = async () => {
 //   try {
 //     const response = await axios.get(`${API_URL}/news/list/`, {
@@ -45,7 +45,7 @@ export const loginUser = async (credentials) => {
 //   }
 // };
 
-// // 🏛 Bo‘limlar (departments) ro‘yxatini olish
+// //  Bo‘limlar (departments) ro‘yxatini olish
 // export const fetchDepartments = async () => {
 //   try {
 //     const response = await axios.get(`${API_URL}/news/departments/`, {
@@ -58,7 +58,7 @@ export const loginUser = async (credentials) => {
 //   }
 // };
 
-// / 📰 Barchaga ochiq yangiliklar API
+// /  Barchaga ochiq yangiliklar API
 export const fetchNews = async () => {
   try {
     const response = await axios.get(`${API_URL}/news/list/`);
@@ -69,7 +69,7 @@ export const fetchNews = async () => {
   }
 };
 
-// 🏛 Bo‘limlar (departments) ro‘yxatini olish
+// Bo‘limlar (departments) ro‘yxatini olish
 export const fetchDepartments = async () => {
   try {
     const response = await axios.get(`${API_URL}/news/departments/`);

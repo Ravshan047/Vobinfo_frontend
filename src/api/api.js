@@ -22,7 +22,7 @@ export const registerUser = async (data) => {
 // Login
 export const loginUser = async (credentials) => {
   try {
-    const response = await axios.post(`${API_URL}/users/login/`, credentials);
+    const response = await axios.post(`${API_URL}api/users/login/`, credentials);
     localStorage.setItem('access', response.data.access);
     localStorage.setItem('refresh', response.data.refresh);
     return response.data;

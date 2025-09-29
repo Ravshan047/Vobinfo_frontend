@@ -11,7 +11,7 @@ const getAuthHeaders = () => {
 // Ro‘yxatdan o‘tish
 export const registerUser = async (data) => {
   try {
-    const response = await axios.post(`${API_URL}/users/register/`, data);
+    const response = await axios.post(`${API_URL}api/users/register/`, data);
     return response.data;
   } catch (error) {
     console.error('Ro‘yxatdan o‘tishda xatolik:', error);

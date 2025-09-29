@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Mail, Phone, MapPin, Clock } from 'lucide-react';
 
-const API_URL = 'http://127.0.0.1:8005/api/news/departments/gas/';
+const API_URL = 'https://lutsifer.pythonanywhere.com/api/news/departments/gas/';
 
 interface GasItem {
     id: number;

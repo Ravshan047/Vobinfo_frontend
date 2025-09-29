@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Mail, Phone, MapPin, Clock } from 'lucide-react';
 
 // API manzil
-const API_URL = 'http://127.0.0.1:8005/api/news/departments/education/';
+const API_URL = 'https://lutsifer.pythonanywhere.com/api/departments/education/';
 
 // Interfeys
 interface EducationItem {

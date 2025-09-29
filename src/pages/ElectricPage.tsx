@@ -4,7 +4,7 @@ import {
     Mail, Phone, MapPin, Clock
 } from 'lucide-react';
 
-const API_URL = 'http://127.0.0.1:8005/api/news/departments/electricity/';
+const API_URL = 'https://lutsifer.pythonanywhere.com/api/departments/electricity/';
 
 
 interface Department {

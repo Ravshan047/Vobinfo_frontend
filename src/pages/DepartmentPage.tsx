@@ -7,7 +7,7 @@ import {
   GraduationCap, Stethoscope, Bus, Building
 } from 'lucide-react';
 
-const API_URL = ' http://127.0.0.1:8005//api/news/departments';
+const API_URL = 'https://lutsifer.pythonanywhere.com/api/departments/news/';
 
 const iconMap: Record<string, JSX.Element> = {
   electricity: <Zap size={32} />,

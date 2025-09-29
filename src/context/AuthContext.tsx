@@ -36,7 +36,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   // Login funksiyasi
   const login = async (username: string, password: string): Promise<boolean> => {
     try {
-      const response = await axios.post('http://127.0.0.1:8005/api/users/login/', {
+      const response = await axios.post('https://lutsifer.pythonanywhere.com/api/users/login/', {
         username,
         password,
       });
@@ -62,7 +62,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   // Ro'yxatdan o'tish funksiyasi
   const register = async (name: string, email: string, password: string): Promise<boolean> => {
     try {
-      const response = await axios.post('http://127.0.0.1:8005/api/users/register/', {
+      const response = await axios.post('https://lutsifer.pythonanywhere.com/api/users/register/', {
         username: name,
         email,
         password,

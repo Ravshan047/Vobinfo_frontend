@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import HomePage from './pages/HomePage';
-// import DepartmentPage from './pages/DepartmentPage';
+import DepartmentPage from './pages/DepartmentPage';
 import NewsPage from './pages/NewsPage';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
@@ -32,7 +32,7 @@ function App() {
             <main className="flex-grow">
               <Routes>
                 <Route path="/" element={<HomePage />} />
-                {/* <Route path="/department/:slug" element={<DepartmentPage />} /> slug deb o‘zgartirildi */}
+                <Route path="/department/:slug" element={<DepartmentPage />} />
                 <Route path="/department/electricity" element={<ElectricPage />} />
                 <Route path="/department/police" element={<PolicePage />} />
                 <Route path="/department/water" element={<WaterPage />} />

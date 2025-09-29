@@ -61,7 +61,7 @@ export const loginUser = async (credentials) => {
 // /  Barchaga ochiq yangiliklar API
 export const fetchNews = async () => {
   try {
-    const response = await axios.get(`${API_URL}/news/list/`);
+    const response = await axios.get(`${API_URL}/api/list/`);
     return response.data;
   } catch (error) {
     console.error('Yangiliklarni olishda xatolik:', error.response?.status, error.response?.data);
@@ -70,12 +70,12 @@ export const fetchNews = async () => {
 };
 
 // Bo‘limlar (departments) ro‘yxatini olish
-export const fetchDepartments = async () => {
-  try {
-    const response = await axios.get(`${API_URL}/news/departments/`);
-    return response.data;
-  } catch (error) {
-    console.error("Bo‘limlar ma'lumotini olishda xatolik:", error.response?.status, error.response?.data);
-    throw error.response?.data || { error: 'Tarmoq xatosi yoki server javobi yo‘q' };
-  }
-};
+// export const fetchDepartments = async () => {
+//   try {
+//     const response = await axios.get(`${API_URL}/news/departments/`);
+//     return response.data;
+//   } catch (error) {
+//     console.error("Bo‘limlar ma'lumotini olishda xatolik:", error.response?.status, error.response?.data);
+//     throw error.response?.data || { error: 'Tarmoq xatosi yoki server javobi yo‘q' };
+//   }
+// };

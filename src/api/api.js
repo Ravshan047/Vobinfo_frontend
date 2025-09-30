@@ -11,7 +11,7 @@ const getAuthHeaders = () => {
 // Ro‘yxatdan o‘tish
 export const registerUser = async (data) => {
   try {
-    const response = await axios.post(`${API_URL}api/users/register/`, data);
+    const response = await axios.post(`${API_URL}/api/users/register/`, data);
     return response.data;
   } catch (error) {
     console.error('Ro‘yxatdan o‘tishda xatolik:', error);
@@ -22,7 +22,7 @@ export const registerUser = async (data) => {
 // Login
 export const loginUser = async (credentials) => {
   try {
-    const response = await axios.post(`${API_URL}api/users/login/`, credentials);
+    const response = await axios.post(`${API_URL}/api/users/login/`, credentials);
     localStorage.setItem('access', response.data.access);
     localStorage.setItem('refresh', response.data.refresh);
     return response.data;

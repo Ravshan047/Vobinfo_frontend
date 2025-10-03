@@ -55,7 +55,7 @@ const ElectricPage = () => {
             {/* Header Matni */}
             <div className=" mx-auto flex items-center justify-center">
                 <div className="text-center p-4 rounded">
-                    <h1 className="mt-12 text-3xl font-bold text-black">Elektir</h1>
+                    <h1 className="mt-12 text-3xl font-bold text-black">Elektr</h1>
                     <p className="mt-2 text-sm text-gray-600"></p>
                 </div>
             </div>

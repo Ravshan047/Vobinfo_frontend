@@ -49,7 +49,7 @@ const GasPage = () => {
             {/* Header Matni */}
             <div className="mx-auto flex items-center justify-center">
                 <div className="text-center p-4 rounded">
-                    <h1 className="mt-12 text-3xl font-bold text-black">Gas</h1>
+                    <h1 className="mt-12 text-3xl font-bold text-black">Gaz</h1>
                     <p className="mt-2 text-sm text-gray-600"></p>
                 </div>  
             </div>
@@ -61,7 +61,7 @@ const GasPage = () => {
                     <h2 className="text-lg font-semibold mb-4">Aloqa ma'lumotlari</h2>
                     <ul className="text-gray-700 space-y-3">
                         <li className="flex items-center gap-2"><Phone size={18} /> +998901234567</li>
-                        <li className="flex items-center gap-2"><Mail size={18} /> gas@mail.uz</li>
+                        <li className="flex items-center gap-2"><Mail size={18} /> gaz@mail.uz</li>
                         <li className="flex items-center gap-2"><MapPin size={18} /> Tuman markazi</li>
                         <li className="flex items-center gap-2"><Clock size={18} /> 09:00 - 18:00 (Du-Sha)</li>
                     </ul>

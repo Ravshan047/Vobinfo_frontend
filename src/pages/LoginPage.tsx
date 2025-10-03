@@ -48,8 +48,8 @@ const LoginPage = () => {
       {/* Header Matni */}
       <div className="mx-auto flex items-center justify-center">
         <div className="text-center p-4 rounded">
-          <h1 className="mt-12 text-3xl font-bold text-black">Kirish</h1>
-          <p className="mt-2 text-sm text-gray-600">Tizimga kirish uchun login va parolingizni kiriting.</p>
+          {/* <h1 className="mt-12 text-3xl font-bold text-black">Kirish</h1>
+          <p className="mt-2 text-sm text-gray-600">Tizimga kirish uchun login va parolingizni kiriting.</p> */}
         </div>
       </div>
 
